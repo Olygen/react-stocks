@@ -1,0 +1,59 @@
+.App {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/* 
+
+.main {
+  padding: 0 20px;
+} */
+
+.navigation {
+  display: flex;  
+  background: #333;
+  width: 100vw;
+  height: 50px;
+  color: #fff;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.istocks-link {
+  color: #99CC00 !important;
+  font-size: 2em !important;
+  margin-left: 10px !important;
+  font-weight: bold !important;
+}
+
+/* .navigation a:hover {
+  color: #ccc;
+} */
+
+.dashboard li {
+  text-align: left;
+}
+
+.stocks {
+  text-align: left;
+  margin-left: 1%;
+}
